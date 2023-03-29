@@ -1,3 +1,18 @@
 .projects {
   color: aqua;
 }
+
+.project-page {
+  font-size: 30px;
+  color: rgb(159, 151, 151);
+  display: flex;
+}
+
+.projects-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.projects-content p {
+  font-size: 260px;
+}
