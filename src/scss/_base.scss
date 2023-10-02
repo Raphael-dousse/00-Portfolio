@@ -43,6 +43,7 @@ a {
 
 a:hover {
   opacity: 0.2;
+  color: #da0000;
 }
 
 p {
@@ -74,4 +75,9 @@ video {
 body {
   background: black;
   color: white;
+}
+
+::selection {
+  color: black;
+  background: #da0000;
 }
