@@ -1,0 +1,12 @@
+.memories-packshot img {
+  height: 800px;
+}
+
+.memories-packshot {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
