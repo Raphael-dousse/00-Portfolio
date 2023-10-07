@@ -25,6 +25,7 @@
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
   opacity: 0.45;
+  margin-top: 65px;
 }
 
 .projects-1:hover {
@@ -86,4 +87,8 @@
 
 .projects-content p {
   font-size: 260px;
+}
+
+.projects-list {
+  margin: 395px 0 0 40px;
 }

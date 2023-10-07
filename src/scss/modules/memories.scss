@@ -12,26 +12,31 @@
 }
 
 .memories-01 {
-  position: relative;
-  top: 620px;
+  margin-top: 620px;
 }
 
 .memories-03 {
-  position: relative;
-  top: 380px;
+  margin-top: 380px;
 }
 
 .memories-04 {
-  position: relative;
-  top: 1080px;
+  margin-top: 480px;
 }
 
 .memories-05 {
-  position: relative;
-  top: 780px;
+  margin-top: 80px;
 }
 
 .memories-06 {
-  position: relative;
-  top: 1280px;
+  margin-top: 580px;
+}
+
+.memories-text {
+  margin: 100px 0 50px 0;
+}
+
+.memories-video {
+  display: flex;
+  justify-content: center;
+  margin-top: 409px;
 }
