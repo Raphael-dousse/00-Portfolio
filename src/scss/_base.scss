@@ -17,6 +17,7 @@
 
 html {
   font-size: 16px;
+  cursor: none;
 }
 
 body {
@@ -27,6 +28,7 @@ body {
   font-size: 1rem;
   line-height: 1.25;
   scroll-behavior: smooth;
+  cursor: none;
 }
 
 a {
@@ -82,4 +84,11 @@ body {
 ::selection {
   color: black;
   background: #da0000;
+}
+
+em {
+  font-family: scandia-web, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 25px;
 }
