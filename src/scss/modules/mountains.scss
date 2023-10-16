@@ -1,0 +1,12 @@
+.mountains-packshot img {
+  height: 800px;
+}
+
+.mountains-packshot {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
