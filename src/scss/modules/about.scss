@@ -14,6 +14,7 @@
 .links {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   margin: 50px 0 30px 35px;
 }
 
@@ -21,4 +22,21 @@
   font-family: scandia-web, sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+
+.photo-profil {
+  margin: 95px 0 0 35px;
+  gap: 30px;
+}
+
+.photo-profil img {
+  height: 490px;
+  // clip-path: circle(50% at 50% 50%);
+  opacity: 10%;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.photo-profil img:hover {
+  opacity: 100%;
 }
