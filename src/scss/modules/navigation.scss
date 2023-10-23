@@ -12,3 +12,15 @@ nav {
 nav p {
   font-weight: 700;
 }
+
+@media (max-width: 500px) {
+  nav p {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 565px) {
+  nav p {
+    display: none;
+  }
+}

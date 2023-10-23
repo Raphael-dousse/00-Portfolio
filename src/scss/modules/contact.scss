@@ -8,3 +8,39 @@
   font-style: normal;
   font-size: 80px;
 }
+
+@media (max-width: 1230px) {
+  .links-contact h3 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 930px) {
+  .links-contact h3 {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 784px) {
+  .links-contact h3 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 640px) {
+  .links-contact h3 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 565px) {
+  .links-contact h3 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 400px) {
+  .links-contact h3 {
+    font-size: 20px;
+  }
+}

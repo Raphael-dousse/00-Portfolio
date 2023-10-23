@@ -1,46 +1,50 @@
 .memories-packshot img {
-  height: 800px;
+  height: 500px;
 }
 
 .memories-packshot {
-  margin-top: 80px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 50px;
+  // gap: 50px;
 }
 
-.memories-01 {
-  margin-top: 620px;
-}
+// .memories-01 {
+//   margin-top: 620px;
+// }
 
-.memories-02 {
-  margin-top: 80px;
-}
+// .memories-02 {
+//   margin-top: 80px;
+// }
 
-.memories-03 {
-  margin-top: 380px;
-}
+// .memories-03 {
+//   margin-top: 380px;
+// }
 
-.memories-04 {
-  margin-top: 480px;
-}
+// .memories-04 {
+//   margin-top: 480px;
+// }
 
-.memories-05 {
-  margin-top: 80px;
-}
+// .memories-05 {
+//   margin-top: 80px;
+// }
 
-.memories-06 {
-  margin-top: 580px;
-}
+// .memories-06 {
+//   margin-top: 580px;
+// }
 
 .memories-text {
-  margin: 200px 0 50px 0;
+  margin: 100px 0 50px 0;
+}
+
+.memories-text h1 {
+  font-size: 30px;
+  font-weight: 600;
 }
 
 .memories-video {
   display: flex;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 100px;
 }

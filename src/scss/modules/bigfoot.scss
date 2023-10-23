@@ -1,5 +1,5 @@
 .bigfoot-packshot img {
-  height: 800px;
+  height: 500px;
 }
 
 .bigfoot-packshot {
@@ -8,39 +8,44 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 50px;
+  // gap: 50px;
 }
 
-.bigfoot-01 {
-  margin-top: 680px;
-}
+// .bigfoot-01 {
+//   margin-top: 680px;
+// }
 
-.bigfoot-02 {
-  margin-top: 80px;
-}
+// .bigfoot-02 {
+//   margin-top: 80px;
+// }
 
-.bigfoot-03 {
-  margin-top: 680px;
-}
+// .bigfoot-03 {
+//   margin-top: 680px;
+// }
 
-.bigfoot-04 {
-  margin-top: 180px;
-}
+// .bigfoot-04 {
+//   margin-top: 180px;
+// }
 
-.bigfoot-05 {
-  margin-top: 80px;
-}
+// .bigfoot-05 {
+//   margin-top: 80px;
+// }
 
-.bigfoot-06 {
-  margin-top: 180px;
-}
+// .bigfoot-06 {
+//   margin-top: 180px;
+// }
 
 .bigfoot-text {
-  margin: 200px 0 50px 0;
+  margin: 100px 0 50px 0;
+}
+
+.memories-text h1 {
+  font-size: 30px;
+  font-weight: 600;
 }
 
 .bigfoot-video {
   display: flex;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 100px;
 }
