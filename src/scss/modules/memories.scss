@@ -10,29 +10,65 @@
   // gap: 50px;
 }
 
-// .memories-01 {
-//   margin-top: 620px;
-// }
+.memories-01 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
 
-// .memories-02 {
-//   margin-top: 80px;
-// }
+.memories-01:hover {
+  opacity: 100%;
+}
 
-// .memories-03 {
-//   margin-top: 380px;
-// }
+.memories-02 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
 
-// .memories-04 {
-//   margin-top: 480px;
-// }
+.memories-02:hover {
+  opacity: 100%;
+}
 
-// .memories-05 {
-//   margin-top: 80px;
-// }
+.memories-03 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
 
-// .memories-06 {
-//   margin-top: 580px;
-// }
+.memories-03:hover {
+  opacity: 100%;
+}
+
+.memories-04 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.memories-04:hover {
+  opacity: 100%;
+}
+
+.memories-05 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.memories-05:hover {
+  opacity: 100%;
+}
+
+.memories-06 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.memories-06:hover {
+  opacity: 100%;
+}
 
 .memories-text {
   margin: 100px 0 50px 0;

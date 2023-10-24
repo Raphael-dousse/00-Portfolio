@@ -11,20 +11,104 @@
   // gap: 25px;
 }
 
+.glitch-01 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+@media (max-width: 500px) {
+  .glitch-01 {
+    opacity: 100%;
+  }
+}
+
+.glitch-01:hover {
+  opacity: 100%;
+}
+
 .glitch-02 {
   margin-top: 280px;
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+@media (max-width: 500px) {
+  .glitch-02 {
+    opacity: 100%;
+  }
+}
+
+.glitch-02:hover {
+  opacity: 100%;
+}
+
+.glitch-03 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+@media (max-width: 500px) {
+  .glitch-03 {
+    opacity: 100%;
+  }
+}
+
+.glitch-03:hover {
+  opacity: 100%;
 }
 
 .glitch-04 {
   margin-top: 10px;
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+@media (max-width: 500px) {
+  .glitch-04 {
+    opacity: 100%;
+  }
+}
+
+.glitch-04:hover {
+  opacity: 100%;
 }
 
 .glitch-05 {
   margin-top: 280px;
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+@media (max-width: 500px) {
+  .glitch-05 {
+    opacity: 100%;
+  }
+}
+
+.glitch-05:hover {
+  opacity: 100%;
 }
 
 .glitch-06 {
   margin-top: 120px;
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+@media (max-width: 500px) {
+  .glitch-06 {
+    opacity: 100%;
+  }
+}
+
+.glitch-06:hover {
+  opacity: 100%;
 }
 
 .glitch-text {

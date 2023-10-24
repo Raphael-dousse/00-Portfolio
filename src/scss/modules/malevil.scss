@@ -10,21 +10,101 @@
   justify-content: center;
 }
 
-// .malevil-02 {
-//   margin-top: 280px;
-// }
+.malevil-01 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
 
-// .malevil-04 {
-//   margin-top: 10px;
-// }
+@media (max-width: 500px) {
+  .malevil-01 {
+    opacity: 100%;
+  }
+}
 
-// .malevil-05 {
-//   margin-top: 280px;
-// }
+.malevil-01:hover {
+  opacity: 100%;
+}
 
-// .malevil-06 {
-//   margin-top: 120px;
-// }
+.malevil-02 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+@media (max-width: 500px) {
+  .malevil-02 {
+    opacity: 100%;
+  }
+}
+
+.malevil-02:hover {
+  opacity: 100%;
+}
+
+.malevil-03 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+@media (max-width: 500px) {
+  .malevil-03 {
+    opacity: 100%;
+  }
+}
+
+.malevil-03:hover {
+  opacity: 100%;
+}
+
+.malevil-04 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+@media (max-width: 500px) {
+  .malevil-04 {
+    opacity: 100%;
+  }
+}
+
+.malevil-04:hover {
+  opacity: 100%;
+}
+
+.malevil-05 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+@media (max-width: 500px) {
+  .malevil-05 {
+    opacity: 100%;
+  }
+}
+
+.malevil-05:hover {
+  opacity: 100%;
+}
+
+.malevil-06 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+@media (max-width: 500px) {
+  .malevil-06 {
+    opacity: 100%;
+  }
+}
+
+.malevil-06:hover {
+  opacity: 100%;
+}
 
 .malevil-text {
   margin: 100px 0 50px 0;

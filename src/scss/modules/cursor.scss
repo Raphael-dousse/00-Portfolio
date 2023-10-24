@@ -8,3 +8,9 @@
   height: 20px;
   border-radius: 50%;
 }
+
+@media (max-width: 500px) {
+  .cursor {
+    position: fixed;
+  }
+}
