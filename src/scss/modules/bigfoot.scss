@@ -11,29 +11,101 @@
   // gap: 50px;
 }
 
-// .bigfoot-01 {
-//   margin-top: 680px;
-// }
+.bigfoot-01 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
 
-// .bigfoot-02 {
-//   margin-top: 80px;
-// }
+@media (max-width: 500px) {
+  .bigfoot-01 {
+    opacity: 100%;
+  }
+}
 
-// .bigfoot-03 {
-//   margin-top: 680px;
-// }
+.bigfoot-01:hover {
+  opacity: 100%;
+}
 
-// .bigfoot-04 {
-//   margin-top: 180px;
-// }
+.bigfoot-02 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
 
-// .bigfoot-05 {
-//   margin-top: 80px;
-// }
+@media (max-width: 500px) {
+  .bigfoot-02 {
+    opacity: 100%;
+  }
+}
 
-// .bigfoot-06 {
-//   margin-top: 180px;
-// }
+.bigfoot-02:hover {
+  opacity: 100%;
+}
+
+.bigfoot-03 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+@media (max-width: 500px) {
+  .bigfoot-03 {
+    opacity: 100%;
+  }
+}
+
+.bigfoot-03:hover {
+  opacity: 100%;
+}
+
+.bigfoot-04 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+@media (max-width: 500px) {
+  .bigfoot-04 {
+    opacity: 100%;
+  }
+}
+
+.bigfoot-04:hover {
+  opacity: 100%;
+}
+
+.bigfoot-05 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+@media (max-width: 500px) {
+  .bigfoot-05 {
+    opacity: 100%;
+  }
+}
+
+.bigfoot-05:hover {
+  opacity: 100%;
+}
+
+.bigfoot-06 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+@media (max-width: 500px) {
+  .bigfoot-06 {
+    opacity: 100%;
+  }
+}
+
+.bigfoot-06:hover {
+  opacity: 100%;
+}
 
 .bigfoot-text {
   margin: 100px 0 50px 0;
