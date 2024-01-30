@@ -1,47 +1,22 @@
 .links-contact {
-  margin: 300px 0 0 35px;
+  margin: 220px 0 0 35px;
 }
 
-.links-contact h3 {
+.links-contact a {
   font-family: scandia-web, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 80px;
-  margin-top: 30px;
+  padding: 20px;
 }
 
-@media (max-width: 1230px) {
-  .links-contact h3 {
-    font-size: 60px;
-  }
-}
-
-@media (max-width: 930px) {
-  .links-contact h3 {
-    font-size: 50px;
-  }
-}
-
-@media (max-width: 784px) {
-  .links-contact h3 {
-    font-size: 40px;
-  }
-}
-
-@media (max-width: 640px) {
-  .links-contact h3 {
-    font-size: 35px;
-  }
-}
-
-@media (max-width: 565px) {
-  .links-contact h3 {
-    font-size: 25px;
-  }
+.links-contact .row {
+  margin-top: 45px;
+  border-bottom: solid white;
 }
 
 @media (max-width: 400px) {
-  .links-contact h3 {
-    font-size: 20px;
+  .links-contact a {
+    font-size: 50px;
   }
 }
