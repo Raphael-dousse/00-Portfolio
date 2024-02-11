@@ -1,0 +1,86 @@
+.vnl-packshot img {
+  height: 500px;
+}
+
+.vnl-packshot {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  // gap: 50px;
+}
+
+.vnl-01 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.vnl-01:hover {
+  opacity: 100%;
+}
+
+.vnl-02 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.vnl-02:hover {
+  opacity: 100%;
+}
+
+.vnl-03 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.vnl-03:hover {
+  opacity: 100%;
+}
+
+.vnl-04 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.vnl-04:hover {
+  opacity: 100%;
+}
+
+.vnl-05 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.vnl-05:hover {
+  opacity: 100%;
+}
+
+.vnl-06 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.vnl-06:hover {
+  opacity: 100%;
+}
+
+.vnl-text {
+  margin: 100px 0 50px 0;
+}
+
+.vnl-text h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.vnl-video {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
