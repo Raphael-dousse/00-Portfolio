@@ -13,7 +13,7 @@
   background-size: cover;
   background-attachment: fixed;
   flex-shrink: 0;
-  // background-image: url(/src/img/about-01.jpg);
+  background-image: url(/src/img/about-01.jpg);
   width: 100%;
   height: 950px;
   transition-duration: 0.5s;
@@ -31,31 +31,43 @@
 }
 
 @media (max-width: 590px) {
-  .about h1 {
+  .profil-page h1 {
     font-size: 80px;
   }
 }
 
 @media (max-width: 440px) {
-  .about h1 {
+  .profil-page h1 {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 240px) {
+  .profil-page h1 {
     font-size: 50px;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 990px) {
   .about p {
     font-size: 40px;
   }
 }
 
+@media (max-width: 500px) {
+  .about p {
+    font-size: 20px;
+  }
+}
+
 @media (max-width: 400px) {
   .about p {
-    font-size: 30px;
+    font-size: 17px;
   }
 }
 
 .about {
-  margin: 95px 0 0 35px;
+  margin: 95px 0 0 20px;
 }
 
 .about p {
@@ -90,13 +102,12 @@
 
 .about-pdf-button {
   display: inline-block;
-  padding: 10px;
+  padding: 20px 30px;
   border: 2px solid white;
   background-color: transparent;
   color: black;
   text-decoration: none;
   text-align: center;
-  font-family: Arial, sans-serif;
   transition: all 0.3s ease;
   background-color: white; /* Fond noir initial */
 }
