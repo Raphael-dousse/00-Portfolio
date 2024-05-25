@@ -1,12 +1,22 @@
 .mountains-packshot img {
-  // height: 500px;
+  width: 100%;
+  overflow: hidden;
 }
 
 .mountains-packshot {
   margin-top: 80px;
+}
+
+.pack {
   display: flex;
-  flex-direction: column;
-  // gap: 25px;
+  flex-direction: row;
+}
+
+@media (max-width: 800px) {
+  .pack {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .mountains-text {

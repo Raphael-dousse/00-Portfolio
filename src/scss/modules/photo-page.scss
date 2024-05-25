@@ -1,54 +1,54 @@
-.projects-photo-box a {
-  color: #fff;
-  font-family: scandia-web, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 240px;
-}
-
-// .projects-box {
-//   text-align: center;
+// .projects-photo-box a {
+//   color: #fff;
+//   font-family: scandia-web, sans-serif;
+//   font-weight: 400;
+//   font-style: normal;
+//   font-size: 240px;
 // }
 
-.projects-photo-1 {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  flex-shrink: 0;
-  background-image: url(/src/img/mountains.jpg);
-  width: 100%;
-  height: 403px;
-  transition-duration: 0.5s;
-  transition-timing-function: ease-out;
-  opacity: 0.45;
-  margin-top: 65px;
-}
+// // .projects-box {
+// //   text-align: center;
+// // }
 
-.projects-photo-1:hover {
-  opacity: 100%;
-}
+// .projects-photo-1 {
+//   display: flex;
+//   justify-content: center;
+//   flex-direction: column;
+//   background-position: center center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-attachment: fixed;
+//   flex-shrink: 0;
+//   background-image: url(/src/img/mountains.jpg);
+//   width: 100%;
+//   height: 403px;
+//   transition-duration: 0.5s;
+//   transition-timing-function: ease-out;
+//   opacity: 0.45;
+//   margin-top: 65px;
+// }
 
-.projects-photo-2 {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  flex-shrink: 0;
-  background-image: url(/src/img/pack.jpeg);
-  width: 100%;
-  height: 403px;
-  transition-duration: 0.5s;
-  transition-timing-function: ease-out;
-  opacity: 0.45;
-}
+// .projects-photo-1:hover {
+//   opacity: 100%;
+// }
 
-.projects-photo-2:hover {
-  opacity: 100%;
-}
+// .projects-photo-2 {
+//   display: flex;
+//   justify-content: center;
+//   flex-direction: column;
+//   background-position: center center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-attachment: fixed;
+//   flex-shrink: 0;
+//   background-image: url(/src/img/pack-cover.jpg);
+//   width: 100%;
+//   height: 403px;
+//   transition-duration: 0.5s;
+//   transition-timing-function: ease-out;
+//   opacity: 0.45;
+// }
+
+// .projects-photo-2:hover {
+//   opacity: 100%;
+// }
