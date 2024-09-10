@@ -6,6 +6,10 @@
   font-size: 180px;
 }
 
+.projects-box a:hover {
+  opacity: 0.5;
+}
+
 @media (max-width: 1280px) {
   .projects-box a {
     font-size: 150px;
@@ -74,12 +78,6 @@
 //   text-align: center;
 // }
 
-@media (max-width: 500px) {
-  .projects-1 {
-    opacity: 100%;
-  }
-}
-
 .projects-1 {
   display: flex;
   justify-content: center;
@@ -95,6 +93,12 @@
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
   opacity: 0.45;
+}
+
+@media (max-width: 500px) {
+  .projects-1 {
+    opacity: 100%;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -409,7 +413,7 @@
   transition-duration: 0.5s;
   transition-timing-function: ease-out;
   opacity: 0.45;
-  margin-top: 65px;
+  margin-top: 90px;
 }
 
 @media (max-width: 1024px) {

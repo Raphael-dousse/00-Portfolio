@@ -8,10 +8,15 @@
   font-style: normal;
   font-size: 80px;
   padding: 20px;
+  transition: all 0.3s ease;
+}
+
+.links-contact a:hover {
+  color: #da0000;
 }
 
 .links-contact .row {
-  margin-top: 45px;
+  margin-top: 60px;
   border-bottom: solid white;
 }
 

@@ -46,8 +46,7 @@ a {
 }
 
 a:hover {
-  opacity: 0.5;
-  color: #da0000;
+  border-radius: 1px #da0000;
 }
 
 @media (max-width: 500px) {

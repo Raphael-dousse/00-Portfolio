@@ -1,10 +1,53 @@
-const cursor = document.querySelector(".cursor");
+var cursor = $(".cursor"),
+  follower = $(".cursor-follower");
 
-const moveCursor = (e) => {
-  const mouseY = e.clientY;
-  const mouseX = e.clientX;
+var posX = 0,
+  posY = 0;
 
-  cursor.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0)`;
-};
+var mouseX = 0,
+  mouseY = 0;
 
-window.addEventListener("mousemove", moveCursor);
+TweenMax.to({}, 0.016, {
+  repeat: -1,
+  onRepeat: function () {
+    posX += (mouseX - posX) / 9;
+    posY += (mouseY - posY) / 9;
+
+    TweenMax.set(follower, {
+      css: {
+        left: posX - 12,
+        top: posY - 12,
+      },
+    });
+
+    TweenMax.set(cursor, {
+      css: {
+        left: mouseX,
+        top: mouseY,
+      },
+    });
+  },
+});
+
+$(document).on("mousemove", function (e) {
+  mouseX = e.pageX;
+  mouseY = e.pageY;
+});
+
+$(".link").on("mouseenter", function () {
+  cursor.addClass("active");
+  follower.addClass("active");
+});
+$(".link").on("mouseleave", function () {
+  cursor.removeClass("active");
+  follower.removeClass("active");
+});
+
+$(".portfolio-link").on("mouseenter", function () {
+  cursor.addClass("active2");
+  follower.addClass("active2");
+});
+$(".portfolio-link").on("mouseleave", function () {
+  cursor.removeClass("active2");
+  follower.removeClass("active2");
+});
