@@ -1,53 +1,32 @@
-var cursor = $(".cursor"),
-  follower = $(".cursor-follower");
+//Page cursors
 
-var posX = 0,
-  posY = 0;
-
-var mouseX = 0,
-  mouseY = 0;
-
-TweenMax.to({}, 0.016, {
-  repeat: -1,
-  onRepeat: function () {
-    posX += (mouseX - posX) / 9;
-    posY += (mouseY - posY) / 9;
-
-    TweenMax.set(follower, {
-      css: {
-        left: posX - 12,
-        top: posY - 12,
-      },
-    });
-
-    TweenMax.set(cursor, {
-      css: {
-        left: mouseX,
-        top: mouseY,
-      },
-    });
-  },
-});
-
-$(document).on("mousemove", function (e) {
-  mouseX = e.pageX;
-  mouseY = e.pageY;
-});
-
-$(".link").on("mouseenter", function () {
-  cursor.addClass("active");
-  follower.addClass("active");
-});
-$(".link").on("mouseleave", function () {
-  cursor.removeClass("active");
-  follower.removeClass("active");
-});
-
-$(".portfolio-link").on("mouseenter", function () {
-  cursor.addClass("active2");
-  follower.addClass("active2");
-});
-$(".portfolio-link").on("mouseleave", function () {
-  cursor.removeClass("active2");
-  follower.removeClass("active2");
-});
+document
+  .getElementsByTagName("body")[0]
+  .addEventListener("mousemove", function (n) {
+    (t.style.left = n.clientX + "px"),
+      (t.style.top = n.clientY + "px"),
+      (e.style.left = n.clientX + "px"),
+      (e.style.top = n.clientY + "px"),
+      (i.style.left = n.clientX + "px"),
+      (i.style.top = n.clientY + "px");
+  });
+var t = document.getElementById("cursor"),
+  e = document.getElementById("cursor2"),
+  i = document.getElementById("cursor3");
+function n(t) {
+  e.classList.add("hover"), i.classList.add("hover");
+}
+function s(t) {
+  e.classList.remove("hover"), i.classList.remove("hover");
+}
+s();
+for (
+  var r = document.querySelectorAll(".hover-target"), a = r.length - 1;
+  a >= 0;
+  a--
+) {
+  o(r[a]);
+}
+function o(t) {
+  t.addEventListener("mouseover", n), t.addEventListener("mouseout", s);
+}

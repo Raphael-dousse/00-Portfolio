@@ -599,3 +599,82 @@
     font-size: 60px;
   }
 }
+
+.project-content-Swiss-Alps {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  flex-shrink: 0;
+  background-image: url(/src/img/27-cover.png);
+  width: 100%;
+  height: 970px;
+  // border-bottom: white solid 2px;
+}
+
+.project-content-Swiss-Alps h1 {
+  font-size: 200px;
+}
+
+@media (max-width: 1437px) {
+  .project-content-Swiss-Alps h1 {
+    font-size: 150px;
+  }
+}
+
+@media (max-width: 1245px) {
+  .project-content-Swiss-Alps h1 {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 1065px) {
+  .project-content-Swiss-Alps h1 {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 805px) {
+  .project-content-Swiss-Alps h1 {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 749px) {
+  .project-content-Swiss-Alps h1 {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 642px) {
+  .project-content-Swiss-Alps h1 {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 538px) {
+  .project-content-Swiss-Alps h1 {
+    font-size: 90px;
+  }
+}
+
+@media (max-width: 485px) {
+  .project-content-Swiss-Alps h1 {
+    font-size: 80px;
+  }
+}
+
+@media (max-width: 440px) {
+  .project-content-Swiss-Alps h1 {
+    font-size: 70px;
+  }
+}
+
+@media (max-width: 390px) {
+  .project-content-Swiss-Alps h1 {
+    font-size: 60px;
+  }
+}

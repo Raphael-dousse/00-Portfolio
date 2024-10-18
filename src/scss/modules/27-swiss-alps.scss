@@ -1,0 +1,97 @@
+.Swiss-Alps-packshot img {
+  height: 500px;
+}
+
+.Swiss-Alps-packshot {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  // gap: 50px;
+}
+
+.Swiss-Alps-01 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.Swiss-Alps-01:hover {
+  opacity: 100%;
+}
+
+.Swiss-Alps-02 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.Swiss-Alps-02:hover {
+  opacity: 100%;
+}
+
+.Swiss-Alps-03 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.Swiss-Alps-03:hover {
+  opacity: 100%;
+}
+
+.Swiss-Alps-04 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.Swiss-Alps-04:hover {
+  opacity: 100%;
+}
+
+.Swiss-Alps-05 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.Swiss-Alps-05:hover {
+  opacity: 100%;
+}
+
+.Swiss-Alps-06 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.Swiss-Alps-06:hover {
+  opacity: 100%;
+}
+
+.Swiss-Alps-text {
+  margin: 100px 0 50px 0;
+}
+
+.Swiss-Alps-text h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.Swiss-Alps-text a {
+  transition-duration: 0.3s;
+  transition-property: opacity;
+  transition-timing-function: ease-out;
+  font-style: italic;
+}
+
+.Swiss-Alps-text a:hover {
+  color: #da0000;
+}
+
+.Swiss-Alps-video {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
