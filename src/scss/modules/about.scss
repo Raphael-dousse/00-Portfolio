@@ -21,9 +21,27 @@
 }
 
 .about p {
-  font-size: 70px;
+  font-size: 90px;
   font-weight: 400;
   margin-left: 10px;
+}
+
+@media (max-width: 990px) {
+  .about p {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .about p {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .about p {
+    font-size: 17px;
+  }
 }
 
 .profil-page h1 {
@@ -48,30 +66,30 @@
   }
 }
 
-@media (max-width: 990px) {
-  .about p {
-    font-size: 40px;
-  }
-}
-
-@media (max-width: 500px) {
-  .about p {
-    font-size: 20px;
-  }
-}
-
-@media (max-width: 400px) {
-  .about p {
-    font-size: 17px;
-  }
-}
-
 .about {
   margin: 95px 0 0 20px;
 }
 
-.about p {
-  margin-top: 20px;
+.about-text-2 {
+  margin-top: 150px;
+}
+
+@media (max-width: 1000px) {
+  .about-text-2 {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .about-text-2 {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .about-text-2 {
+    margin-top: 10px;
+  }
 }
 
 .logo-rd img {
