@@ -1,0 +1,24 @@
+.aju-packshot img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.aju-packshot {
+  margin-top: 80px;
+}
+
+.aju-pack {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 800px) {
+  .aju-pack {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.aju-text {
+  margin: 100px 0 100px 0;
+}

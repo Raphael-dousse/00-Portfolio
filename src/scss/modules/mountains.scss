@@ -7,13 +7,13 @@
   margin-top: 80px;
 }
 
-.pack {
+.mountains-pack {
   display: flex;
   flex-direction: row;
 }
 
 @media (max-width: 800px) {
-  .pack {
+  .mountains-pack {
     display: flex;
     flex-direction: column;
   }

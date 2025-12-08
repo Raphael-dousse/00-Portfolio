@@ -31,7 +31,7 @@ nav > a {
 }
 
 nav > a:hover {
-  color: #da0000;
+  color: #d9002b;
 }
 
 .line {
@@ -41,7 +41,7 @@ nav > a:hover {
     margin-top: 4px;
     width: 100%;
     height: 2px;
-    background-color: #da0000;
+    background-color: #d9002b;
     transition: transform 0.45s cubic-bezier(0.835, -0.005, 0.06, 1);
     transform: scaleX(0);
   }
