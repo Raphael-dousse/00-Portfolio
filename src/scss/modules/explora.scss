@@ -1,0 +1,86 @@
+.explora-packshot img {
+  height: 500px;
+}
+
+.explora-packshot {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  // gap: 50px;
+}
+
+.explora-01 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.explora-01:hover {
+  opacity: 100%;
+}
+
+.explora-02 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.explora-02:hover {
+  opacity: 100%;
+}
+
+.explora-03 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.explora-03:hover {
+  opacity: 100%;
+}
+
+.explora-04 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.explora-04:hover {
+  opacity: 100%;
+}
+
+.explora-05 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.explora-05:hover {
+  opacity: 100%;
+}
+
+.explora-06 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.explora-06:hover {
+  opacity: 100%;
+}
+
+.explora-text {
+  margin: 100px 0 50px 0;
+}
+
+.explora-text h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.explora-video {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}

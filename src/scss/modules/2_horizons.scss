@@ -1,0 +1,86 @@
+.manteca-packshot img {
+  height: 500px;
+}
+
+.manteca-packshot {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  // gap: 50px;
+}
+
+.manteca-01 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.manteca-01:hover {
+  opacity: 100%;
+}
+
+.manteca-02 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.manteca-02:hover {
+  opacity: 100%;
+}
+
+.manteca-03 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.manteca-03:hover {
+  opacity: 100%;
+}
+
+.manteca-04 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.manteca-04:hover {
+  opacity: 100%;
+}
+
+.manteca-05 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.manteca-05:hover {
+  opacity: 100%;
+}
+
+.manteca-06 {
+  opacity: 0.45;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.manteca-06:hover {
+  opacity: 100%;
+}
+
+.manteca-text {
+  margin: 100px 0 50px 0;
+}
+
+.manteca-text h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.manteca-video {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}

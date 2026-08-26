@@ -85,6 +85,11 @@
   margin-top: 150px;
 }
 
+.about-text-2 b {
+  background-color: #d9002b;
+  color: white;
+}
+
 @media (max-width: 1000px) {
   .about-text-2 {
     margin-top: 50px;
@@ -104,8 +109,8 @@
 }
 
 .logo-rd img {
-  height: 85px;
-  margin: 65px 0 50px 25px;
+  height: 35px;
+  margin: 65px 0 50px 50px;
 }
 
 // .photo-profil {
